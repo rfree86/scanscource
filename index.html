@@ -32,6 +32,7 @@
 
       #discoverBlock,#discoverBlock2, #arecontBlock, #arecontBlock2{background-color: #F2F2F2;}
       .headline{color:#E93F33}
+      .discoverArcont{padding: 10px}
 
       /*////// MOBILE STYLES //////*/
 
@@ -45,7 +46,7 @@
         @media only screen and (max-width: 480px){
           /*RESET STYLES*/
 
-           td[id="workInFieldVideoContainer"], td[id="discoverContainer"], td[id="stellarContainer"], td[id="arecontContainer"], td[id="socialContainer"], td[id="socialIcons"]{display: none;}
+           td[id="workInFieldVideoContainer"], td[id="discoverContainer"], td[id="stellarContainer"], td[id="socialContainer"], td[id="socialIcons"]{display: none;}
            td[id="workInFieldVideoContainer2"], td[id="discoverContainer2"], td[id="stellarContainer2"], td[id="arecontContainer2"], td[id="socialContainer2"], td[id="socialIcons2"]{display: block;}
 
           table[id="videoBlock"], table[id="footerBlock"]{max-width:480px !important; width:100% !important;}
@@ -62,13 +63,24 @@
             }
       @media only screen and (max-width: 400px){
 
-        td[id="workInFieldVideoContainer"], td[id="discoverContainer"], td[id="stellarContainer"], td[id="arecontContainer"], td[id="socialContainer"], td[id="socialIcons"]{display: none;}
+        td[id="workInFieldVideoContainer"], td[id="discoverContainer"], td[id="stellarContainer"] td[id="socialContainer"], td[id="socialIcons"]{display: none;}
         td[id="workInFieldVideoContainer2"], td[id="discoverContainer2"], td[id="stellarContainer2"], td[id="arecontContainer2"], td[id="socialContainer2"], td[id="socialIcons2"]{display: block;}
 
         table[id="videoBlock"], table[id="footerBlock"]{max-width:320px !important; width:100% !important;}
-        table[id="workInFieldVideoBlock2"], table[id="discoverBlock2"], table[id="stellarBlock2"], table[id="arecontBlock2"], table[id="socialBlock2"]{max-width:320px !important; width:100% !important;;}
+        table[id="workInFieldVideoBlock2"], table[id="discoverBlock2"], table[id="stellarBlock2"], table[id="arecontBlock"], table[id="socialBlock2"]{max-width:320px !important; width:100% !important;;}
 
         img[id="headerImage"], img[id="footerImage"]{height:auto !important; max-width:320px !important; width:100% !important;}
+      }
+
+      @media only screen and (max-width: 375px){
+
+        td[id="workInFieldVideoContainer"], td[id="discoverContainer"], td[id="stellarContainer"] td[id="socialContainer"], td[id="socialIcons"]{display: none;}
+        td[id="workInFieldVideoContainer2"], td[id="discoverContainer2"], td[id="stellarContainer2"], td[id="arecontContainer2"], td[id="socialContainer2"], td[id="socialIcons2"]{display: block;}
+
+        table[id="videoBlock"], table[id="footerBlock"]{max-width:375px !important; width:100% !important;}
+        table[id="workInFieldVideoBlock2"], table[id="discoverBlock2"], table[id="stellarBlock2"], table[id="arecontBlock"], table[id="socialBlock2"]{max-width:375px !important; width:100% !important;;}
+
+        img[id="headerImage"], img[id="footerImage"]{height:auto !important; max-width:375px !important; width:100% !important;}
       }
 
 		</style>
@@ -93,7 +105,7 @@
                       <!-- // Begin Video Block -->
                         <table border="0" cellpadding="0" cellspacing="0" width="600" id="videoBlock">
                           <tr>
-                            <td align="left" valign="top" class="headline">
+                            <td align="left" valign="top" class="headline discoverArcont">
                               <h3>Great Crate Giveaway</h3>
                             </td>
                           </tr>
@@ -114,7 +126,7 @@
 
                       <table border="0" cellpadding="0" cellspacing="0" width="600" id="workInFieldVideoBlock">
                         <tr>
-                          <td align="left" valign="top" class="headline">
+                          <td align="left" valign="top" class="headline discoverArcont">
                             <h3>Put it to Work in the Field</h3>
                           </td>
                         </tr>
@@ -123,7 +135,7 @@
                             <td align="center" valign="top">
                               <table border="0" cellpadding="0" cellspacing="0" width="100%">
                                 <tr>
-                                  <td align="left" valign="middle">
+                                  <td align="left" valign="middle" class="discoverArcont">
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
                                     ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
                                     laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
@@ -131,7 +143,7 @@
                                     Excepteur sint occaecat cupidatat non proident,
                                     sunt in culpa qui officia deserunt mollit anim id est laborum.
                                   </td>
-                                  <td>
+                                  <td class="discoverArcont">
                                     <img src="images/Put-it-to-work-in-the-field.png" alt="FieldVideo" width="200" height="200">
                                   </td>
                                 </tr>
@@ -149,7 +161,7 @@
 
                       <table border="0" cellpadding="0" cellspacing="0" width="450" id="workInFieldVideoBlock2">
                         <tr>
-                          <td align="left" valign="top" class="headline">
+                          <td align="left" valign="top" class="headline discoverArcont">
                             <h3>Put it to Work in the Field</h3>
                           </td>
                         </tr>
@@ -158,13 +170,13 @@
                             <td align="center" valign="top">
                               <table border="0" cellpadding="0" cellspacing="0" width="100%">
                                 <tr>
-                                  <td align="center">
+                                  <td align="center" class="discoverArcont">
                                     <img src="images/Put-it-to-work-in-the-field.png" alt="FieldVideo" width="200" height="200">
                                   </td>
                                 </tr>
 
                                 <tr>
-                                  <td align="left" valign="middle">
+                                  <td align="left" valign="middle" class="discoverArcont">
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
                                     ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
                                     laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
@@ -188,7 +200,7 @@
 
                             <table border="0" cellpadding="0" cellspacing="0" width="600" id="discoverBlock">
                               <tr>
-                                <td align="left" valign="top" class="headline">
+                                <td align="left" valign="top" class="headline discoverArcont">
                                   <h3>Discover the SurroundVideo Series</h3>
                                 </td>
                               </tr>
@@ -197,10 +209,10 @@
                                   <td align="center" valign="top">
                                     <table border="0" cellpadding="0" cellspacing="0" width="100%">
                                       <tr>
-                                        <td>
+                                        <td class="discoverArcont">
                                           <img src="images/Surroundvideo-Omni-G2 copy.jpg" alt="DiscoverVideo" width="200" height="200">
                                         </td>
-                                        <td align="left" valign="middle">
+                                        <td align="left" valign="middle" class="discoverArcont">
                                           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
                                           ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
                                           laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
@@ -222,7 +234,7 @@
 
                             <table border="0" cellpadding="0" cellspacing="0" width="450" id="discoverBlock2">
                               <tr>
-                                <td align="left" valign="top" class="headline">
+                                <td align="left" valign="top" class="headline discoverArcont">
                                   <h3>Discover the SurroundVideo Series</h3>
                                 </td>
                               </tr>
@@ -231,12 +243,12 @@
                                   <td align="center" valign="top">
                                     <table border="0" cellpadding="0" cellspacing="0" width="100%">
                                       <tr>
-                                        <td align="center">
+                                        <td align="center" class="discoverArcont">
                                           <img src="images/Surroundvideo-Omni-G2 copy.jpg" alt="DiscoverVideo" width="200" height="200">
                                         </td>
                                           </tr>
                                           <tr>
-                                        <td align="left" valign="middle">
+                                        <td align="left" valign="middle" class="discoverArcont">
                                           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
                                           ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
                                           laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
@@ -260,7 +272,7 @@
 
                                   <table border="0" cellpadding="0" cellspacing="0" width="600" id="stellarBlock">
                                     <tr>
-                                      <td align="left" valign="top" class="headline">
+                                      <td align="left" valign="top" class="headline discoverArcont">
                                         <h3>What is STELLAR Technology</h3>
                                       </td>
                                     </tr>
@@ -269,14 +281,14 @@
                                         <td align="center" valign="top">
                                           <table border="0" cellpadding="0" cellspacing="0" width="100%">
                                             <tr>
-                                              <td align="left" valign="middle">
+                                              <td align="left" valign="middle" class="discoverArcont">
                                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
                                                 ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
                                                 laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
                                                 voluptate velit esse cillum dolore eu fugiat nulla pariatur.Excepteur sint occaecat cupidatat
                                                 non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                                               </td>
-                                              <td>
+                                              <td class="discoverArcont">
                                                 <img src="images/What-is-STELLAR-technology.jpg" alt="STELLAR-Technology" width="200" height="200">
                                               </td>
                                             </tr>
@@ -294,7 +306,7 @@
 
                                   <table border="0" cellpadding="0" cellspacing="0" width="450" id="stellarBlock2">
                                     <tr>
-                                      <td align="left" valign="top" class="headline">
+                                      <td align="left" valign="top" class="headline discoverArcont">
                                         <h3>What is STELLAR Technology</h3>
                                       </td>
                                     </tr>
@@ -303,13 +315,13 @@
                                         <td align="center" valign="top">
                                           <table border="0" cellpadding="0" cellspacing="0" width="100%">
                                             <tr>
-                                              <td align="center">
+                                              <td align="center" class="discoverArcont">
                                                 <img src="images/What-is-STELLAR-technology.jpg" alt="STELLAR-Technology" width="200" height="200">
                                               </td>
                                             </tr>
 
                                             <tr>
-                                              <td align="left" valign="middle">
+                                              <td align="left" valign="middle" class="discoverArcont">
                                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
                                                 ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
                                                 laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
@@ -333,12 +345,12 @@
                                 <td align="center" valign="top" id="arecontContainer">
                                   <table border="0" cellpadding="0" cellspacing="0" width="600" id="arecontBlock">
                                     <tr>
-                                      <td align="left" valign="top" class="headline">
+                                      <td align="left" valign="top" class="headline discoverArcont">
                                         <h3>Arecont Vision Webinars</h3>
                                       </td>
                                     </tr>
                                     <tr>
-                                      <td align="left" valign="middle">
+                                      <td align="left" valign="middle" class="discoverArcont">
                                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
                                         ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
                                         laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
